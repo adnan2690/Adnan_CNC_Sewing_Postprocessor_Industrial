@@ -1,0 +1,16 @@
+# Industrial project ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.dxf
+*.hpgl
+*.gcode
+dist/
+build/
+*.spec
+*.iss
+*.exe
+*.log
+*.cache
