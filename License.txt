@@ -1,0 +1,14 @@
+
+`requirements.txt`:
+```text
+numpy==1.24.3
+shapely==2.0.1
+PyQt5==5.15.9
+ezdxf==1.1.0
+cryptography==41.0.3
+numba==0.57.1
+pyinstaller==5.13.0
+reportlab==4.0.4
+scipy==1.10.1
+
+Industrial CNC Sewing License © 2025 Adnan Abdulmalek CNC Solutions

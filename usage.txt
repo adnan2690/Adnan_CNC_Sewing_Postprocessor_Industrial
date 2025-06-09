@@ -1,0 +1,6 @@
+# Launch unified CNC suite
+python Application_Entry/quantum_unified_loader.py
+
+# Build industrial executable
+cd Quantum_Deployment
+python hyperspeed_installer.py
