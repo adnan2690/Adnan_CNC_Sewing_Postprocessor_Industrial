@@ -1,0 +1,14 @@
+; M104 - Emergency Stop
+; Industrial E-Stop Sequence
+
+O104
+  ; Immediate stop
+  M112
+  ; Disable drives
+  M01
+  ; Clamp OFF
+  M65 P1
+  ; Spindle Stop
+  M5
+  ; Activate alarm
+  M99

@@ -1,1 +1,16 @@
+; M100 - Start Stitching
+; Industrial Initialization Sequence
 
+O100
+  ; Clamp ON
+  M64 P1
+  ; Needle Up
+  M107
+  ; Spindle Start (3000 RPM)
+  M3 S3000
+  ; Initialize Counters
+  #100 = 0
+  #101 = 0
+  ; Set Feedrate
+  F4000
+  M99

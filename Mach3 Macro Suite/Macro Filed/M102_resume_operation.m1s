@@ -1,0 +1,11 @@
+; M102 - Resume Operation
+; Industrial Resume Sequence
+
+O102
+  ; Move to saved position
+  G0 X#102 Y#103
+  ; Needle Down
+  M106
+  ; Restore feedrate
+  F#104
+  M99

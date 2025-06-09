@@ -1,0 +1,15 @@
+; M105 - Trim Thread
+; Industrial Trimming Sequence
+
+O105
+  ; Needle Up
+  M107
+  ; Dwell 0.5s
+  G04 P0.5
+  ; Activate cutter
+  M108
+  ; Dwell 0.2s
+  G04 P0.2
+  ; Deactivate cutter
+  M109
+  M99

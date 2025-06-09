@@ -1,0 +1,12 @@
+; M101 - Pause Operation
+; Industrial Pause Sequence
+
+O101
+  ; Dwell for 0.5 seconds
+  G04 P0.5
+  ; Needle Up
+  M107
+  ; Save current position
+  #102 = #5041 ; X position
+  #103 = #5042 ; Y position
+  M99

@@ -1,0 +1,13 @@
+; M103 - Stop Stitching
+; Industrial Shutdown Sequence
+
+O103
+  ; Needle Up
+  M107
+  ; Clamp OFF
+  M65 P1
+  ; Spindle Stop
+  M5
+  ; Return to Home
+  G28 G91 X0 Y0
+  M30
